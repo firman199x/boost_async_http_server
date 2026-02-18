@@ -1,0 +1,91 @@
+# Build directories
+build/
+cmake-build-*/
+out/
+Debug/
+Release/
+MinSizeRel/
+RelWithDebInfo/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+
+# Compiled binaries
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.dylib
+*.lib
+*.a
+
+# IDE files
+## Visual Studio
+.vs/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+## CLion
+.idea/
+
+## VS Code
+.vscode/
+
+## Xcode
+*.xcodeproj/
+*.xcworkspace/
+DerivedData/
+
+## Eclipse
+.project
+.cproject
+.settings/
+
+# OS specific files
+## macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+## Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+## Linux
+*~
+.directory
+
+# Editor backup files
+*.swp
+*.swo
+*~
+*.bak
+*.tmp
+
+# Clangd
+.clangd/
+.cache/
+
+# Documentation
+doxygen/
+*.dox
+
+# Package files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip

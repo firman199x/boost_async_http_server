@@ -1,0 +1,40 @@
+BasedOnStyle:            Google
+IndentWidth:             4
+TabWidth:                4
+AccessModifierOffset:    -2
+BreakBeforeBraces:       Custom
+BraceWrapping:
+  AfterControlStatement: MultiLine
+  AfterFunction:         true
+  AfterCaseLabel:        false
+  AfterClass:            false
+  AfterEnum:             false
+  AfterNamespace:        false
+  AfterObjCDeclaration:  false
+  AfterStruct:           false
+  AfterUnion:            false
+  AfterExternBlock:      false
+  BeforeCatch:           false
+  BeforeElse:            false
+  BeforeLambdaBody:      false
+  BeforeWhile:           false
+  IndentBraces:          false
+  SplitEmptyFunction:    false
+  SplitEmptyRecord:      false
+  SplitEmptyNamespace:   false
+
+
+# BreakBeforeBraces:      Linux
+# AlignConsecutiveAssignments:
+#   Enabled:         true
+#   AcrossEmptyLines: false
+#   AcrossComments:  false
+#   AlignCompound:   false
+#   PadOperators:    true
+# AlignConsecutiveDeclarations:
+#   Enabled:         true
+#   AcrossEmptyLines: false
+#   AcrossComments:  false
+#   AlignCompound:   false
+#   PadOperators:    false
+
